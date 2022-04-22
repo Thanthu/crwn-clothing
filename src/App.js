@@ -1,17 +1,7 @@
-import { Routes, Route, Outlet } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
+import NavBar from "./routes/home/navbar/NavBar";
 import Home from "./routes/home/Home";
-
-function NavBar() {
-  return (
-    <div>
-      <div>
-        <h1>I am the navigation bar</h1>
-      </div>
-      <Outlet />
-    </div>
-  );
-}
 
 function Shop() {
   return <h1>I am the Shop page</h1>
